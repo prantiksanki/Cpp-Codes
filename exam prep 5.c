@@ -1,0 +1,8 @@
+#include <stdio.h>
+#define STRING "%s \n"
+#define NESO "Welcome to neso!"
+int main ()
+{
+	printf (STRING , NESO);
+	return 0;
+}
