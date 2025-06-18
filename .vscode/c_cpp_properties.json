@@ -5,6 +5,7 @@
       "includePath": [
         "${workspaceFolder}/**"
       ],
+<<<<<<< HEAD
       "compilerPath": "gcc",
       "cStandard": "${default}",
       "cppStandard": "${default}",
@@ -12,6 +13,17 @@
       "compilerArgs": [
         ""
       ]
+=======
+      "defines": [
+        "_DEBUG",
+        "UNICODE",
+        "_UNICODE"
+      ],
+      "cppStandard": "${default}",
+      "cStandard": "${default}",
+      "compilerPath": "gcc",
+      "intelliSenseMode": "windows-gcc-x64"
+>>>>>>> 5d854cf (File upload)
     }
   ],
   "version": 4

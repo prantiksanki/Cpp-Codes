@@ -1,19 +1,41 @@
-#include <stdio.h>
-int main()
- {
-  int i, n;
-  int t1 = 0, t2 = 1;
-  int nextTerm = t1 + t2;
-  printf("Enter the number of terms: ");
-  scanf("%d", &n);
-  printf("Fibonacci Series: %d, %d, ", t1, t2);
-  for (i = 3; i <= n; ++i) 
-  {
-    printf("%d, ", nextTerm);
-    t1 = t2;
-    t2 = nextTerm;
-    nextTerm = t1 + t2;
-  }
-    return 0;
-}
+// FIBONACCI SERIES
 
+
+#include <iostream >
+using namespace std ;
+
+int main ()
+{
+
+    int a,b,i,n , c;
+
+
+    cout << "Enter the no of terms you want to print : ";
+    cin >> n ;
+
+
+    //int sum = 0 ;
+
+
+    a=0 ;
+    b =1 ;
+
+   // int temp =0 ;
+
+    cout << a << " " ;
+     cout << b << " " ;
+
+    i=2 ;
+    while (i<n)
+    {
+
+        c = a+b ;
+        cout << c << " ";
+
+        a=b ;
+        b=c ;
+
+        i=i+1 ;
+
+    }
+}
